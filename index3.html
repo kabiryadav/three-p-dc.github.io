@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="images/logo/icon-logo.png">
+    <script src="https://kit.fontawesome.com/cf6fdfdfea.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/dc-form.css">
+    <link rel="stylesheet" href="css/digital.css">
+    <title>Digital Clinic</title>
+  </head>
+  <body>
+    
+    
+    <header class="header">
+        <section id="header-nav"> 
+          <div class="container-fluid"> 
+            <div class="row"> 
+        <nav class="navbar navbar-light w-100 ">
+          <a class="navbar-brand"><img src="images/logo/logo-d.png" height="40px" width="180px"></a>
+          <div class="header-m ml-auto">
+           <!---  <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-solid fa-user"></i></a>-->
+           <!--- <div class="menu">
+              <div id="myNav" class="overlay">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <div class="overlay-content">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                  </div>
+                </div>
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+              </ul>
+          </div> -->
+          <div class="previes">
+            <a href="file:///C:/Users/lalmani%20Yadav/Music/sateesh/Desktop/Digital-clinic/Digital-Clinic/Digital-New/index.html"><i class="fa-sharp fa-solid fa-arrow-left-long" style="color: rgb(75, 156, 232);"></i></a>
+          </div>
+          </div>
+        </nav>
+        </div>
+      </div>
+      </section>
+        </header>
+        <!---here is registration form code-->
+        <div class="container-fluid mt-5">
+          <div class="row justify-content-center">
+              <div class="col-11 col-sm-10 col-md-12 col-lg-12 col-xl-8 text-center p-0 mt-3 mb-2 " id="damdam">
+                  <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
+                      <h2 id="heading">Sign Up Your User Account</h2>
+                      <p>Fill all form field to go to next step</p>
+                      <form id="msform" class=" ">
+                          <!-- progressbar -->
+                          <ul id="progressbar">
+                              <li class="active" id="account"><strong>Account</strong></li>
+                              <li id="personal"><strong>Personal</strong></li>
+                              <li id="payment"><strong>Business</strong></li>
+                              <li id="confirm"><strong>Finish</strong></li>
+                          </ul>
+                          <div class="progress">
+                              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div> <br> <!-- fieldsets -->
+                          <fieldset>
+                              <div class="form-card">
+                                  <div class="row">
+                                      <div class="col-7">
+                                          <h2 class="fs-title">Account Information:</h2>
+                                      </div>
+                                      <div class="col-5">
+                                          <h2 class="steps">Step 1 - 4</h2>
+                                      </div>
+                                  </div> <label class="fieldlabels">Email: *</label> <input type="email" name="email" placeholder="Email Id" /> <label class="fieldlabels">Username: *</label> <input type="text" name="uname" placeholder="UserName" /> <label class="fieldlabels">Password: *</label> <input type="password" name="pwd" placeholder="Password" /> <label class="fieldlabels">Confirm Password: *</label> <input type="password" name="cpwd" placeholder="Confirm Password" />
+                              </div> <input type="button" name="next" class="next action-button" value="Next" />
+                          </fieldset>
+                          <fieldset>
+                              <div class="form-card">
+                                  <div class="row">
+                                      <div class="col-7">
+                                          <h2 class="fs-title">Personal Information:</h2>
+                                      </div>
+                                      <div class="col-5">
+                                          <h2 class="steps">Step 2 - 4</h2>
+                                      </div>
+                                  </div> <label class="fieldlabels">First Name: *</label> <input type="text" name="fname" placeholder="First Name" /> <label class="fieldlabels">Last Name: *</label> <input type="text" name="lname" placeholder="Last Name" /> <label class="fieldlabels">Contact No.: *</label> <input type="text" name="phno" placeholder="Contact No." /> <label class="fieldlabels">Alternate Contact No.: *</label> <input type="text" name="phno_2" placeholder="Alternate Contact No." />
+                              </div> <input type="button" name="next" class="next action-button" value="Next" /> <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                          </fieldset>
+                          <fieldset>
+                              <div class="form-card">
+                                  <div class="row">
+                                      <div class="col-7">
+                                          <h2 class="fs-title">Your Business:</h2>
+                                      </div>
+                                      <div class="col-5">
+                                          <h2 class="steps">Step 3 - 4</h2>
+                                      </div>
+                                  </div> <label class="fieldlabels">Upload Your Photo:</label> <input type="file" name="pic" accept="image/*"> <label class="fieldlabels">Upload Signature Photo:</label> <input type="file" name="pic" accept="image/*">
+                              </div> <input type="button" name="next" class="next action-button" value="Submit" /> <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                          </fieldset>
+                          <fieldset>
+                              <div class="form-card">
+                                  <div class="row">
+                                      <div class="col-7">
+                                          <h2 class="fs-title">Finish:</h2>
+                                      </div>
+                                      <div class="col-5">
+                                          <h2 class="steps">Step 4 - 4</h2>
+                                      </div>
+                                  </div> <br><br>
+                                  <h2 class="purple-text text-center"><strong>SUCCESS !</strong></h2> <br>
+                                  <div class="row justify-content-center">
+                                      <div class="col-3"> <img src="https://i.imgur.com/GwStPmg.png" class="fit-image"> </div>
+                                  </div> <br><br>
+                                  <div class="row justify-content-center">
+                                      <div class="col-7 text-center">
+                                          <h5 class="purple-text text-center">You Have Successfully Signed Up</h5>
+                                      </div>
+                                  </div>
+                              </div>
+                          </fieldset>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/digital.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
